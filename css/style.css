@@ -1,0 +1,141 @@
+body {
+    color: var(--NAVY-BLUE-color);
+    background-color: var(--WHITE-color);
+    font-family: "Roboto", sans-serif;
+
+}
+
+:root {
+    --NAVY-BLUE-color: #2E2F42;
+    --WHITE-color: #ffffff;
+    --SLATE-color: #434455;
+    /*body text*/
+    --IRIS-color: #4D5AE5;
+    --CORN-FLOWER-color: #E7E9FC;
+    --CLOUD-color: #F4F4FD;
+    --OCEAN-color: #404BBF;
+    --FONT-LOGO: "Raleway", sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+.link.logo {
+    color: var(--NAVY-BLUE-color);
+    font-family: var(--FONT-LOGO);
+    font-weight: 800;
+    font-size: 18;
+    line-height: 1.333;
+    letter-spacing: 3%;
+}
+
+.logoAccent {
+    color: var(--IRIS-color);
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.address-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--SLATE-color);
+}
+
+/* section first HERO */
+.hero {
+    background-color: var(--NAVY-BLUE-color);
+
+}
+
+.hero-title {
+    color: var(--WHITE-color);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
+
+.hero-button {
+    background-color: var(--IRIS-color);
+    color: var(--WHITE-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* section second FEATURES */
+.features-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.features-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--SLATE-color);
+}
+
+/* section third DOING */
+.doing-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+
+}
+
+/* section four TEAM */
+.team {
+    background-color: var(--CLOUD-color);
+}
+
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--SLATE-color);
+}
+
+
+/* footer */
+/* section SLOGAN */
+.footer-slogan {
+    background-color: var(--NAVY-BLUE-color);
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: var(--CLOUD-color);
+}
+
+.slogan-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--CLOUD-color)
+}
