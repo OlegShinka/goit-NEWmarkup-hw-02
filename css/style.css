@@ -30,9 +30,8 @@ ul {
     color: var(--NAVY-BLUE-color);
     font-family: var(--FONT-LOGO);
     font-weight: 800;
-    font-size: 18;
-    line-height: 1.333;
-    letter-spacing: 3%;
+    font-size: 18px;
+    line-height: 1.33;
 }
 
 .logoAccent {
@@ -50,6 +49,12 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     color: var(--SLATE-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--IRIS-color);
+    text-decoration: underline;
 }
 
 /* section first HERO */
@@ -81,8 +86,8 @@ ul {
 }
 
 .features-text {
-    font-size: 16px;
-    font-weight: 400;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
     line-height: 1.5;
     color: var(--SLATE-color);
 }
@@ -113,8 +118,8 @@ ul {
 }
 
 .card-text {
-    font-size: 16px;
-    font-weight: 400;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
     line-height: 1.5;
     color: var(--SLATE-color);
 }
@@ -134,8 +139,26 @@ ul {
 }
 
 .slogan-text {
-    font-size: 16px;
-    font-weight: 400;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
     line-height: 1.5;
     color: var(--CLOUD-color)
+}
+
+/* Portfolio */
+
+.btn-menu {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--IRIS-color);
+    background-color: var(--CORN-FLOWER-color);
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+    color: var(--WHITE-color);
+    background-color: var(--OCEAN-color);
 }
