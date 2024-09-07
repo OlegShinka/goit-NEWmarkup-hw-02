@@ -76,6 +76,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    cursor: pointer;
 }
 
 /* section second FEATURES */
@@ -161,4 +162,16 @@ ul {
 .btn-menu:focus {
     color: var(--WHITE-color);
     background-color: var(--OCEAN-color);
+}
+
+.card-title {
+    color: var(--NAVY-BLUE-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-content {
+    color: var(--SLATE-color);
+    line-height: 1.5;
 }
