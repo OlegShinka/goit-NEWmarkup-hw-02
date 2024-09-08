@@ -1,5 +1,5 @@
 body {
-    color: var(--NAVY-BLUE-color);
+    color: var(--SLATE-color);
     background-color: var(--WHITE-color);
     font-family: "Roboto", sans-serif;
 
@@ -21,34 +21,49 @@ body {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 
 /* HEADER */
 .link.logo {
-    color: var(--NAVY-BLUE-color);
+    color: var(--IRIS-color);
     font-family: var(--FONT-LOGO);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.logoAccent {
-    color: var(--IRIS-color);
+.logo-header {
+    color: var(--NAVY-BLUE-color);
+
 }
 
 .nav-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--OCEAN-color);
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-link {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--SLATE-color);
+    color: var(--OCEAN-color);
+    letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -68,15 +83,24 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
     background-color: var(--IRIS-color);
     color: var(--WHITE-color);
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.hero-button:hover,
+.btn-menu:focus {
+    background-color: var(--OCEAN-color);
 }
 
 /* section second FEATURES */
@@ -84,6 +108,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .features-text {
@@ -91,6 +116,7 @@ ul {
     /* font-weight: 400; */
     line-height: 1.5;
     color: var(--SLATE-color);
+    letter-spacing: 0.02em;
 }
 
 /* section third DOING */
@@ -98,6 +124,9 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 
 }
 
@@ -110,18 +139,28 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.card-team {
+    background-color: var(--WHITE-color);
 }
 
 .card-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .card-text {
     /* font-size: 16px; */
     /* font-weight: 400; */
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--SLATE-color);
 }
 
@@ -132,10 +171,8 @@ ul {
     background-color: var(--NAVY-BLUE-color);
 }
 
-.footer-logo {
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.33;
+.logo-footer {
+    font-family: var(--FONT-LOGO);
     color: var(--CLOUD-color);
 }
 
@@ -143,6 +180,7 @@ ul {
     /* font-size: 16px; */
     /* font-weight: 400; */
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--CLOUD-color)
 }
 
