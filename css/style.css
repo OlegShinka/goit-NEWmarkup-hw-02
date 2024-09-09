@@ -190,11 +190,13 @@ body {
 /* Portfolio */
 
 .btn-menu {
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--IRIS-color);
-    background-color: var(--CORN-FLOWER-color);
+    background-color: var(--CLOUD-color);
     cursor: pointer;
     text-align: center;
 }
@@ -212,7 +214,7 @@ body {
     line-height: 1.2;
 }
 
-.card-content {
+.card-desc {
     color: var(--SLATE-color);
     line-height: 1.5;
 }
