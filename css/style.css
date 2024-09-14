@@ -5,6 +5,22 @@ body {
 
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 :root {
     --NAVY-BLUE-color: #2E2F42;
     --WHITE-color: #ffffff;
@@ -25,7 +41,37 @@ body {
     list-style: none;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* HEADER */
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
 .link.logo {
     color: var(--IRIS-color);
     font-family: var(--FONT-LOGO);
@@ -58,6 +104,11 @@ body {
     font-style: normal;
 }
 
+.nav-address {
+    display: flex;
+    gap: 40px;
+}
+
 .address-link {
     font-size: 16px;
     font-weight: 400;
@@ -88,6 +139,7 @@ body {
 }
 
 .hero-button {
+    display: block;
     background-color: var(--IRIS-color);
     color: var(--WHITE-color);
     font-family: inherit;
@@ -96,6 +148,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    border-width: 0;
+    padding: 16px 32px 16px 32px;
+    margin: 0 auto;
+
+
 }
 
 .hero-button:hover,
@@ -157,6 +215,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
 }
 
 .card-text {
@@ -166,6 +225,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--SLATE-color);
 }
+
 
 
 /* footer */
@@ -189,6 +249,12 @@ body {
 
 /* Portfolio */
 
+.list.filter {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .btn-menu {
     font-family: inherit;
     font-size: 16px;
@@ -199,12 +265,31 @@ body {
     background-color: var(--CLOUD-color);
     cursor: pointer;
     text-align: center;
+    border-radius: 4px;
+    border: 1px solid var(--CORN-FLOWER-color);
+    padding: 12px 24px 12px 24px;
 }
 
 .btn-menu:hover,
 .btn-menu:focus {
     color: var(--WHITE-color);
     background-color: var(--OCEAN-color);
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* відстань між рядками та колонками     */
+    row-gap: 48px;
+    column-gap: 24px;
+
+}
+
+.card-benefits {
+    border: 1px solid var(--CORN-FLOWER-color);
+    /* розрахунок ширини флекс елемента  */
+    /* 100% - кількість_проміжків_у_рядку * значення_одного_проміжку) / кількість_елементів_у_рядку */
+    width: calc((100% - 48px) / 3);
 }
 
 .card-title {
